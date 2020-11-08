@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Wizeline">
+    <test name="login">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="wizeline.tests.Step1_Success"/>
+            <class name="wizeline.tests.Step1_InvalidEmail"/>
+        </classes>
+    </test>
+</suite>
